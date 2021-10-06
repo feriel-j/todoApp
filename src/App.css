@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+.app-header {
+  width: 70%;
+  margin: 0 auto;
+  height: 100px;
+  color: #d7b7bc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #516a97;
+  border-radius: 10px;
+}
+.app-header:hover {
+  transform: scale(1.075);
+}
+.todo-list {
+  color: #516a97;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.todo-list button {
+  width: 50px;
+  margin-top: 10px;
+  padding: 8px;
+  border: solid #d7b7bc;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 5px;
+}
+
+.todo-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 1.1em;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(143, 104, 127, 0.35) 0px -2px 6px 0px inset;
+  margin-top: 10px;
+}
+.todo-item:hover {
+  transform: scale(1.07);
+}
+.undone {
+  background-color: #d7b7bc;
+  color: #516a97;
+}
+.done {
+  background-color: #f7e4e0;
+  color: #516a97;
+}
+.done button {
+  background-color: #f7e4e0 !important;
+  color: #516a97 !important;
+  background-color: #f7e4e0;
+}
+.add-task {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.1em;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(143, 104, 127, 0.35) 0px -2px 6px 0px inset;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #d7b7bc;
+}
+.add-task > * {
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px;
+}
+.add-task button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px auto;
+  background-color: #516a97;
+  color: #d7b7bc;
+  font-weight: 1000;
+  border-color: #d7b7bc;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.text {
+  width: 60%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.text > * {
+  width: 100%;
+}
+.text p {
+  margin: 0 auto;
+}
+.del:hover {
+  color: rgb(122, 28, 28);
+}
+.up:hover {
+  color: green !important;
+}
+
+button:hover {
+  transform: scale(1.075);
+  border-color: #d7b7bc !important;
+}
+button {
+  background-color: #516a97 !important;
+  color: #d7b7bc !important;
+}
+.editmod > * {
+  width: 100%;
+  margin-top: 10px;
+  padding: 1.1em;
+}
